@@ -1,0 +1,43 @@
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# lib/  # Don't ignore Flutter lib folder
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+.venv/
+ENV/
+env/
+
+# Database
+*.db
+*.sqlite3
+
+# Large model files (use Git LFS for these)
+*.pkl
+backend/model/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
